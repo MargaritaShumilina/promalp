@@ -107,7 +107,8 @@
 }
 
 .numbersBlock {
-  width: 1200px;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
   margin-right: calc((100% - 1200px) / 2);
   margin-left: calc((100% - 1200px) / 2);
   padding: 0 93px 88px;
@@ -122,11 +123,6 @@
   display: flex;
   max-width: 326px;
   align-items: center;
-  padding-right: 20%;
-}
-
-.numbersItems:last-child{
-  padding-right: 0;
 }
 
 .numbersItems:last-child {
@@ -148,7 +144,6 @@
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
-  margin: 0;
 }
 
 .numbersDecor {
