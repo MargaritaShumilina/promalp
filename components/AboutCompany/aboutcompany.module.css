@@ -1,0 +1,165 @@
+.aboutCompany {
+  position: relative;
+  height: 1167px;
+}
+
+.bannerAbout {
+  height: 504px;
+  width: 100%;
+  object-fit: cover;
+  background-position: left;
+  z-index: -1;
+}
+
+.bannerAbout::after {
+  content: '';
+  background: linear-gradient(
+    0deg,
+    #333653 -11.11%,
+    rgba(51, 54, 83, 0) 90.28%
+  );
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  height: 504px;
+}
+
+.aboutBlock {
+  position: absolute;
+  background-color: #fff;
+  width: 1200px;
+  margin-right: calc((100% - 1200px) / 2);
+  margin-left: calc((100% - 1200px) / 2);
+  display: flex;
+  top: 365px;
+  padding: 88px 93px 235px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+.aboutDescription {
+  max-width: 472px;
+  margin-right: 65px;
+}
+
+.title {
+  color: #1c1f35;
+  font-family: 'Rubik', serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 12px;
+}
+
+.aboutText {
+  color: #666c89;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 151%;
+  margin: 0 0 30px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.images {
+  width: 58px;
+  height: 58px;
+  margin-right: 15px;
+}
+
+.benefits {
+  color: #1c1f35;
+  font-family: 'Rubik', serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.imagesBlock {
+  position: relative;
+}
+
+.imagesBenefits {
+  width: 372px;
+  height: 248px;
+  background-color: #fff;
+  padding: 20px;
+  z-index: 1;
+  position: absolute;
+  top: 335px;
+  left: -115px;
+}
+
+.imagesBenefitsBefore {
+  width: 470px;
+  height: 462px;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+}
+
+.numbersBlock {
+  width: 1200px;
+  margin-right: calc((100% - 1200px) / 2);
+  margin-left: calc((100% - 1200px) / 2);
+  padding: 0 93px 88px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.numbersItems {
+  border-right: 1px solid #d4d4d4;
+  display: flex;
+  max-width: 326px;
+  align-items: center;
+  padding-right: 20%;
+}
+
+.numbersItems:last-child{
+  padding-right: 0;
+}
+
+.numbersItems:last-child {
+  border-right: none;
+}
+
+.numbersItem {
+  color: #1c1f35;
+  font-family: 'Rubik', serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 16px 0;
+}
+
+.numbersText {
+  color: #1c1f35;
+  font-family: 'Rubik', serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.numbersDecor {
+  display: block;
+  width: 17px;
+  height: 17px;
+  background: linear-gradient(
+    94deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  margin: 0 16px 0;
+}

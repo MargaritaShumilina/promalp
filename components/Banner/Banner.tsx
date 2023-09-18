@@ -20,7 +20,7 @@ export default function Banner() {
               <span className={styles.borderDecoration}></span>
             </li>
             <li className={styles.navigationItem}>
-              <Link href="/#" className={styles.navigationLink}>
+              <Link href="/about" className={styles.navigationLink}>
                 О компании
               </Link>
               <span className={styles.borderDecoration}></span>
