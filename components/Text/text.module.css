@@ -1,0 +1,84 @@
+.textBlock {
+  display: flex;
+  margin-bottom: 98px;
+}
+
+.rightBlock {
+  background: #232536;
+  width: 50%;
+  height: 900px;
+  position: relative;
+}
+
+.decorImg {
+  position: absolute;
+  top: 140px;
+  right: -70px;
+}
+
+.leftBlock {
+  background: #f4f4f4;
+  width: 50%;
+  height: 900px;
+  padding: 200px 155px;
+  box-sizing: border-box;
+}
+
+.description {
+  background-color: rgba(232, 232, 232, 0.5);
+  display: block;
+  max-width: fit-content;
+  padding: 6px;
+  margin: 0 0 15px;
+  border-left: 4px solid #ffbe34;
+}
+
+.advantagesList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.heading {
+  color: #1c1f35;
+  font-family: 'Rubik';
+  font-size: 35px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 18px 0;
+}
+
+.text {
+  color: #666c89;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 151.523%;
+  margin: 0 0 61px 0;
+}
+
+.advantagesList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.advantagesItem {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 12px;
+}
+
+.advantagesText {
+  color: #1c1f35;
+  font-family: 'Rubik';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}

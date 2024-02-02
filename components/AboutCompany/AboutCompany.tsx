@@ -1,5 +1,4 @@
 import styles from './aboutcompany.module.css';
-import { description } from '../WhatWeDo/whatwedo.module.css';
 import BannerAbout from '../../images/bannerabout.jpg';
 import Delivery from '../../images/delivery.svg';
 import Money from '../../images/money.svg';
@@ -20,7 +19,7 @@ export default function AboutCompany() {
         ></div>
         <div className={styles.aboutBlock}>
           <div className={styles.aboutDescription}>
-            <p className={description}>Why Us</p>
+            <p className={styles.description}>Why Us</p>
             <h2 className={styles.title}>
               We provide full range global logistics solution
             </h2>

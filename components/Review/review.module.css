@@ -1,0 +1,51 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  background: #f4f4f4;
+  box-sizing: border-box;
+  padding: 62px 72px;
+}
+
+.review:nth-child(2) {
+  background: #232536;
+  color: #fff;
+}
+
+.helloBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.reviewer {
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.decor {
+}
+
+.reviewName {
+  font-family: 'Rubik';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.reviewServise {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 151.523%;
+  margin: 0;
+}
+
+.reviewText {
+  max-height: fit-content;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 151.523%;
+  margin: 0 0 32px;
+}
