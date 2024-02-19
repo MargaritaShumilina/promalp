@@ -1,0 +1,68 @@
+.servises {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 75px 150px;
+  box-sizing: border-box;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+}
+
+.title {
+  margin: 0 0 20px;
+  color: #1c1f35;
+  font-family: 'Rubik';
+  font-size: 35px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.arrow {
+  width: 37px;
+  height: 37px;
+  margin-right: 7px;
+}
+
+.arrow:last-of-type {
+  margin-right: 0;
+}
+
+.navigation {
+  margin-bottom: 15px;
+}
+
+.items {
+  display: flex;
+  margin-bottom: 65px;
+}
+
+.button {
+  all: unset;
+  background: linear-gradient(
+    95deg,
+    rgba(35, 37, 54, 1) 0%,
+    rgba(32, 40, 84, 1) 50%,
+    rgba(31, 42, 105, 1) 100%
+  );
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 135.023%;
+  padding: 19px 56px;
+}
+
+.decoration {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(
+    95deg,
+    rgba(255, 182, 41, 1) 1.19%,
+    rgba(255, 218, 86, 1) 57.78%,
+    rgba(255, 215, 166, 1) 115.08%
+  );
+  position: absolute;
+  top: 341px;
+  z-index: -1;
+}

@@ -1,0 +1,44 @@
+.image {
+  width: 280px;
+  height: 380px;
+  margin-right: 18px;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.image::after {
+  content: '';
+  background: linear-gradient(0deg, #333653 14.34%, rgba(51, 54, 83, 0) 43.86%);
+  position: absolute;
+  width: 280px;
+  height: 380px;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.image:last-of-type {
+  margin-right: 0;
+}
+
+.name {
+  color: #fff;
+  font-family: 'Rubik';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0 25px 4px 25px;
+}
+
+.price {
+  color: #ffb629;
+  font-family: 'Krub';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 151.523%;
+  margin: 0 0 25px 25px;
+}

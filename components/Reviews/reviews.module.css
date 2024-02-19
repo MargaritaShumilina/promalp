@@ -1,0 +1,39 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  margin: 101px 193px;
+}
+
+.description {
+  background-color: rgba(232, 232, 232, 0.5);
+  display: block;
+  max-width: fit-content;
+  padding: 6px;
+  margin: 0 0 15px;
+  border-left: 4px solid #ffbe34;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Rubik';
+  font-size: 35px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0 0 40px;
+}
+
+.arrow {
+  margin-right: 10px;
+}
+
+.arrow:last-child {
+  margin-right: 0;
+}
+
+.reviewsBlock {
+  display: flex;
+}

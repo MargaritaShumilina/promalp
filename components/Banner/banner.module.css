@@ -1,0 +1,156 @@
+.banner {
+  max-width: 100%;
+  max-height: 700px;
+  position: relative;
+  object-fit: cover;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(9, 18, 66, 0.45);
+  width: 100%;
+  height: 78px;
+  position: absolute;
+  top: 160px;
+  box-sizing: border-box;
+  padding-left: calc((100% - 1198px) / 2);
+  padding-right: calc((100% - 1198px) / 2);
+}
+
+.navigationList {
+  z-index: 2;
+}
+
+.navigationItems {
+  all: unset;
+  display: flex;
+  flex-direction: row;
+}
+
+.navigationItem {
+  list-style: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 135%;
+  margin-right: 30px;
+}
+
+.navigationLink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigationLink:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #fff;
+}
+
+.navigationLink:active {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.borderDecoration {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  margin-left: 30px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactsItems {
+  all: unset;
+  display: flex;
+  flex-direction: row;
+}
+
+.contactsItem {
+  list-style: none;
+  max-width: 20px;
+  margin-right: 24px;
+}
+
+.contactsItem:last-child {
+  margin-right: 50px;
+}
+
+.contactsLink:hover {
+  cursor: pointer;
+}
+
+.contactsButton {
+  all: unset;
+  padding: 28px 52px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 135%;
+  color: #23212a;
+}
+
+.bannerBlock {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  max-height: 375px;
+  max-width: 571px;
+  top: 110px;
+}
+
+.bannerTextBlock::before {
+  content: '';
+  background-color: #333653;
+  box-shadow: 0px 0px 83px 87px #333653;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  position: absolute;
+  display: block;
+  opacity: 60%;
+}
+
+.mainPageTitle {
+  font-family: 'Rubik';
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 135%;
+  margin: 0;
+  z-index: 2;
+  position: relative;
+}
+
+.mainPageDescription {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 151%;
+  margin: 0 0 24px 0;
+  z-index: 3;
+  position: relative;
+}
+
+.buttonStyle {
+  all: unset;
+  z-index: 2;
+  text-align: center;
+  padding: 19px 47px;
+  box-sizing: border-box;
+  width: 194px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 135%;
+  color: #23212a;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 182, 41, 1) 0%,
+    rgba(255, 218, 86, 1) 50%,
+    rgba(255, 215, 166, 1) 100%
+  );
+}

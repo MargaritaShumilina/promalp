@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  background-color: #232536;
+}
+
+.itemsOfHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: calc((160px - 68px) / 2) calc((100% - 1200px) / 2);
+}
+
+.logo {
+  max-height: 36px;
+  margin-right: 235px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 39px;
+  max-width: 256px;
+}
+
+.item:last-child {
+  margin-right: 0;
+}
+
+.iconTime {
+  width: 63px;
+  height: 63px;
+  display: block;
+  margin-right: 17px;
+}
+
+.iconEmail {
+  width: 63px;
+  height: 63px;
+  display: block;
+  margin-right: 17px;
+}
+
+.iconPhone {
+  width: 63px;
+  height: 63px;
+  display: block;
+  margin-right: 17px;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135%;
+  color: #fff;
+}
